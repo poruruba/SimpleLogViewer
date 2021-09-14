@@ -1,0 +1,47 @@
+paths:
+  /tail-view-file:
+    post:
+      security:
+        - apikeyAuth: []
+      produces:
+        - text/plain
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: "#/definitions/CommonRequest"
+      responses:
+        200:
+          description: Success
+          schema:
+            type: "string"
+
+  /tail-get-file:
+    post:
+      security:
+        - apikeyAuth: []
+      produces:
+        - text/plain
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: "#/definitions/CommonRequest"
+      responses:
+        200:
+          description: Success
+          schema:
+            type: "string"
+
+  /tail-list:
+    post:
+      parameters:
+        - in: body
+          name: body
+          schema:
+            $ref: "#/definitions/CommonRequest"
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: "#/definitions/CommonResponse"            
