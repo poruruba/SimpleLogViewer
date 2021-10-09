@@ -1,4 +1,3 @@
-# express_template
+# SimpleLogViewer
 
-https://qiita.com/poruruba/items/92164ca0fe7057199adf<br>
-https://qiita.com/poruruba/items/aad6a181e8ef0d956e71<br>
+https://qiita.com/poruruba/items/c40ecf00526a83732670
